@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini WhatsApp</title>
+</head>
+<body>
+    <h3>Write new chats...</h3>
+    <form method="POST" action="/chats">
+        <div>
+            <label for="from">From:</label>
+            <input type="text"
+             placeholder="From"
+             name="from"
+             id="from"
+            >
+        </div>
+       <br>
+       <div>
+        <label for="msgs">Message:</label>
+        <textarea name="msgs" id="msgs" placeholder="write your msgs" ></textarea>
+       </div>
+       <br>
+       <div>
+        <label for="to">To:</label>
+        <input type="text" placeholder="reciver name" name="to" id="to">
+    </div>
+    <br><br>
+    <button>Create Chat</button>
+    </form>
+</body>
+</html>

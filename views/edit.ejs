@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini WhatsApp</title>
+    
+</head>
+<body>
+  <h3>Edit your chats:<%= chat._id %></h3>
+  <p>This message was sent from <%= chat.from %> to <%= chat.to %></p>
+  <form action="/chats/<%= chat._id %>?_method=PUT" method="POST">
+   <textarea name="msgs" id="msg" cols="30" rows="10"><%= chat.msg %></textarea>
+   <br><br>
+   <button >Edit</button>
+  </form>
+</form>
+</body>
+</html>

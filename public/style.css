@@ -1,0 +1,46 @@
+/* .container{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+
+} */
+.chats{
+    background-color: black;
+    /* display: inline-block; */
+    padding: 1rem;
+    margin: 0.5rem 1rem;
+    border-radius: 1rem;
+    color: white;
+    max-width: 250px;
+    padding: 1.2rem;
+    
+}
+.msgs{
+    background-color: dodgerblue;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    max-width: 100px;
+    font-size: 1.02rem;
+}
+
+/* edit button */
+.btns{
+    display: flex;
+    gap: 1rem;
+}
+.btn{
+    padding: 0.4rem 0.9rem;
+    font-size: 1.02rem;
+    
+    border: none;
+    
+    border-radius: 5px;
+}
+.edit-btn,.new-btn{
+    background-color: crimson;
+    color: white;
+}
+.delete-btn{
+    background-color: lightslategray;
+    color: white;
+}
